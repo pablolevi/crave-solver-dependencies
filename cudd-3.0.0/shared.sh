@@ -12,7 +12,7 @@ fi
 package=cudd
 source=$package-$version.tar.gz
 build_dir=$build/$package-$version
-url='https://github.com/nbruns1/cudd.git'
+url='git@github.com:pablolevi/cudd.git'
 
 download() {
   mkdir -p $cache/$package-$version &&
